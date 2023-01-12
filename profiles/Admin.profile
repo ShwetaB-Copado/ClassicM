@@ -767,11 +767,6 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
-        <field>Case.ClosedOnCreate</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
         <editable>true</editable>
         <field>Case.ContactId</field>
         <readable>true</readable>
@@ -954,16 +949,6 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>ChangeRequest.FinalReviewNotes</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>ChangeRequest.RelatedIssueAutonumberMaster</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>ChangeRequest.RelatedItemAutonumberMaster</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -1234,11 +1219,6 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>ContactPointAddress.UsageType</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>ContactPointConsent.ContactPointTypeConsentId</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -1618,21 +1598,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>DataUsePurpose.IsMaintainablePerContactPoint</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>DataUsePurpose.IsMaintainablePerParty</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>DataUsePurpose.IsMaintainablePerType</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>DataUsePurpose.LegalBasisId</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -1757,11 +1722,6 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
-        <field>Idea.Attachment</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
         <editable>true</editable>
         <field>Idea.Status</field>
         <readable>true</readable>
@@ -1824,11 +1784,6 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Incident.PriorityOverrideReason</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Incident.RelatedItemAutonumberMaster</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -2223,11 +2178,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>MessagingEndUser.IsOptedOut</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
         <field>MessagingSession.CaseId</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -2523,11 +2473,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Problem.RelatedItemAutonumberMaster</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>Problem.ResolutionDateTime</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -2595,86 +2540,6 @@
         <editable>true</editable>
         <field>Product2.StockKeepingUnit</field>
         <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Promotion.AreQualItemsExclFromDiscounts</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Promotion.DiscountOrder</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Promotion.DiscountRestriction</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Promotion.DisplayName</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Promotion.EndDateTime</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Promotion.IsAutomatic</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Promotion.IsCommercePromotion</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Promotion.MaximumUsageCount</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Promotion.PriorityNumber</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Promotion.QualifierCriteria</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Promotion.StartDateTime</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Promotion.TargetCriteria</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Promotion.TermsAndConditions</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>PromotionQualifier.ExternalQualifier</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>PromotionTarget.ExternalTarget</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>PromotionTarget.IsMinItemCountRequired</field>
-        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -3746,21 +3611,6 @@
         <layout>CardPaymentMethod-Card Payment Method Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>CartCheckoutSession-Cart Checkout Session Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>CartDeliveryGroup-Cart Delivery Group Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>CartItem-Cart Item Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>CartTax-Cart Tax Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>CartValidationOutput-Cart Validation Output Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>Case-Case Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -3831,9 +3681,6 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>EmailMessage-Email Message Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>EngagementChannelType-Engagement Channel Type Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Entitlement-Entitlement Layout</layout>
@@ -3974,9 +3821,6 @@
         <layout>ServiceAppointment-Service Appointment Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>ServiceAppointmentGroup-Service Appointment Group Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>ServiceContract-Service Contract Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -3990,9 +3834,6 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>ServiceTerritoryMember-Service Territory Member Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>ServiceTerritoryRelationship-Service Territory Relationship Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>SessionHijackingEventStore-Session Hijacking Event Store Layout</layout>
@@ -4031,19 +3872,7 @@
         <layout>UserProvisioningRequest-User Provisioning Request Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>WebCart-Cart Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>WebCartAdjustmentBasis-Cart Adjustment Basis Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>WebCartAdjustmentGroup-Cart Adjustment Group Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>WebStore-Store Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>WebStoreConfig-Web Store Configuration Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>WorkOrder-Work Order Layout</layout>
@@ -4061,12 +3890,6 @@
         <layout>WorkPlanTemplateEntry-Work Plan Template Entry Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>WorkProcedure-Work Procedure Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>WorkProcedureStep-Work Procedure Step Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>WorkStep-Work Step Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -4074,9 +3897,6 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>WorkType-Work Type Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>WorkTypeExtension-Work Type Extension Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>WorkTypeGroup-Work Type Group Layout</layout>
@@ -4364,69 +4184,6 @@
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>CartCheckoutSession</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>CartDeliveryGroup</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>CartItem</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>CartItemPriceAdjustment</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>CartRelatedItem</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>CartTax</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>CartValidationOutput</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
         <allowEdit>true</allowEdit>
@@ -4693,15 +4450,6 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>Coupon</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
         <object>CredentialStuffingEventStore</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
@@ -4830,15 +4578,6 @@
         <modifyAllRecords>true</modifyAllRecords>
         <object>EngagementChannelType</object>
         <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>EngagementChannelWorkType</object>
-        <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
         <allowCreate>true</allowCreate>
@@ -5323,15 +5062,6 @@
         <allowEdit>false</allowEdit>
         <allowRead>false</allowRead>
         <modifyAllRecords>false</modifyAllRecords>
-        <object>PendingOrdSumProcEvent</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
         <object>PlatformStatusAlertEvent</object>
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
@@ -5404,80 +5134,8 @@
         <allowEdit>false</allowEdit>
         <allowRead>false</allowRead>
         <modifyAllRecords>false</modifyAllRecords>
-        <object>ProductAttribute</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>ProductAttributeSetProduct</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
         <object>ProductConsumptionSchedule</object>
         <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>Promotion</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>PromotionMarketSegment</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>PromotionQualifier</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>PromotionSegment</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>PromotionSegmentSalesStore</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>PromotionTarget</object>
-        <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
         <allowCreate>false</allowCreate>
@@ -5755,15 +5413,6 @@
         <allowEdit>false</allowEdit>
         <allowRead>false</allowRead>
         <modifyAllRecords>false</modifyAllRecords>
-        <object>ShiftEngagementChannel</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
         <object>ShiftWorkTopic</object>
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
@@ -5917,33 +5566,6 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>WebCart</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>WebCartAdjustmentBasis</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>WebCartAdjustmentGroup</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
         <object>WebStore</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
@@ -6028,15 +5650,6 @@
         <object>WorkTypeGroup</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
-    <pageAccesses>
-        <apexPage>VF1</apexPage>
-        <enabled>true</enabled>
-    </pageAccesses>
-    <recordTypeVisibilities>
-        <default>false</default>
-        <recordType>Idea.InternalIdeasIdeaRecordType</recordType>
-        <visible>false</visible>
-    </recordTypeVisibilities>
     <tabVisibilities>
         <tab>standard-Account</tab>
         <visibility>DefaultOn</visibility>
@@ -6044,10 +5657,6 @@
     <tabVisibilities>
         <tab>standard-AlternativePaymentMethod</tab>
         <visibility>DefaultOff</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-ApiAnomalyEventStore</tab>
-        <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-AppLauncher</tab>
@@ -6186,14 +5795,6 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>standard-Coupon</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-CredentialStuffingEventStore</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
         <tab>standard-CreditMemo</tab>
         <visibility>DefaultOff</visibility>
     </tabVisibilities>
@@ -6311,10 +5912,6 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-Lead</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-LearningItem</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
@@ -6442,26 +6039,6 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>standard-Promotion</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-PromotionMarketSegment</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-PromotionSegment</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-PromotionsWorkspace</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-QuickText</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
         <tab>standard-Recommendation</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
@@ -6474,23 +6051,7 @@
         <visibility>DefaultOff</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>standard-ReportAnomalyEventStore</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-RescheduleAppointments</tab>
-        <visibility>DefaultOff</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-ResourceAbsence</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
         <tab>standard-ReturnOrder</tab>
-        <visibility>DefaultOff</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-ScheduleAppointments</tab>
         <visibility>DefaultOff</visibility>
     </tabVisibilities>
     <tabVisibilities>
@@ -6526,20 +6087,12 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>standard-SessionHijackingEventStore</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
         <tab>standard-Shift</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-Sites</tab>
         <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-SocialPersona</tab>
-        <visibility>DefaultOff</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-Solution</tab>
@@ -6567,14 +6120,6 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-VoiceCall</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-WebCart</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-WebStore</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
